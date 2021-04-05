@@ -1,0 +1,68 @@
+export const homeObjOne = {
+  id: 'about',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Premium Bank',
+  headline: 'Unlimited Transactions with zero fees',
+  description:
+    'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees',
+  buttonLabel: 'Get Started',
+  imgStart: false,
+  img: require('../../imgs/svg1.svg').default,
+  alt: 'Car',
+  dark: true,
+  primary: true,
+  darkText: true,
+};
+export const homeObjTwo = {
+  id: 'discover',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Always Connected',
+  headline: 'Access our Exclusive App Anywhere',
+  description:
+    'Access our exclusive app from anywhere in the world, on a PC, tablet, or smart',
+  buttonLabel: 'Get Started',
+  imgStart: false,
+  img: require('../../imgs/svg2.svg').default,
+  alt: 'App',
+  dark: false,
+  primary: false,
+  darkText: true,
+};
+export const homeObjThree = {
+  id: 'packages',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Company Packages',
+  headline: 'Build your Portfolio',
+  description:
+    'Pick between our consumer specialized packages tailored to your needs',
+  buttonLabel: 'Get Started',
+  imgStart: true,
+  img: require('../../imgs/svg5.svg').default,
+  alt: 'Portfolio',
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+export const homeObjFour = {
+  id: 'sign-up',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Sign Up Today',
+  headline: 'Get Instant Rewards',
+  description:
+    'Benefit from our customer appreciation reward system when you access your account from your smartphone or desktop.',
+  buttonLabel: 'Get Started',
+  imgStart: false,
+  img: require('../../imgs/svg3.svg').default,
+  alt: 'Sign-up',
+  dark: true,
+  primary: true,
+  darkText: false,
+};
